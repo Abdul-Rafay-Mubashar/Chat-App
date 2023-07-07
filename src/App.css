@@ -1,0 +1,861 @@
+.Login_BackGround{
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  position: absolute;
+  z-index: 1;
+}
+.Login_Real{
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Login_Back_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-slider {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+}
+
+.image-slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.Login_Com{
+  width: 92%;
+  min-height: 85vh;
+  border-radius: 30px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  overflow: hidden;
+}
+.Login_Com1{
+  width: 50%;
+  height: 85vh;
+}
+.Login_Message{
+  width: 100%;
+  height: 50px;
+  background-color: lightblue;
+  margin-bottom: 40px;
+  color: rgb(0, 128, 38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 22px;
+}
+.Login_Message1{
+  width: 100%;
+  height: 50px;
+  background-color: pink;
+  margin-bottom: 40px;
+  color: Red(0, 128, 38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 22px;
+}
+.Login_Com1_Pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.SignUp_Message{
+  width: 100%;
+  height: 50px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+  color: rgb(0, 128, 38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 22px;
+}
+.SignUp_Message1{
+  width: 100%;
+  height: 50px;
+  background-color: pink;
+  margin-bottom: 10px;
+  color: Red(0, 128, 38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 22px;
+}
+.Login_Form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Login_Form_Inside{
+  width: 70%;
+  height: 60%;
+  /* overflow: auto; */
+}
+.SignUp_Form_Inside{
+  width: 70%;
+  height: 90%;
+  /* overflow: auto; */
+
+}
+.Login_Form_Inside_Heading{
+  width: 100%;
+  height: 10%;
+  font-weight: 700;
+  color: #b2abd4f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+  max-height: 37px;
+}
+.Login_Form_Inside_User{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 15px;
+  max-height: 36px;
+}
+.Login_Form_Inside_Password{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 36px;
+
+}
+.Login_Line{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Login_Line_Base{
+  color: black;
+  width: 40%;
+  min-width: 180px;
+}
+.Login_Line_Base1{
+  color: Red;
+  width: 40%;
+  min-width: 180px;
+}
+.Login_Line_Base2{
+  color: green;
+  width: 40%;
+  min-width: 180px;
+}
+.Login{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  width: 20%;
+
+}
+.Login:hover{
+  width: 20%;
+  font-size: 20px;
+  margin-top: -10px;
+}
+.Login_Form_Inside_User_Pic{
+  width: 35px;
+  height: 90%;
+  margin-right: -3.5vw;
+  position: relative;
+
+}
+.User_Pic_Com{
+  width: 100%;
+  height: 100%;
+}
+.Login_Form_Inside_Use_Input{
+  width: 70%;
+  height: 91%;
+  border: none;
+  padding-left: 55px;
+  border-radius: 25px;
+  background-color: #eae6ffef;
+  font-size: 18px;
+  max-height: 37px;
+  -webkit-text-security: disc; 
+}
+.Login_Form_Inside_Use_Input1{
+  width: 70%;
+  height: 91%;
+  border: none;
+  padding-left: 55px;
+  border-radius: 25px;
+  background-color: #eae6ffef;
+  font-size: 18px;
+  max-height: 37px;
+}
+.Forget{
+  width: 95%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5%;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.Forget1{
+  width: 95%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5%;
+  cursor: pointer;
+  font-size: 18px;
+}
+.Forget:hover{
+  font-size: 22px;
+  color: blue;
+}
+.Login_Button_Outline{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.Login_Button{
+  width: 125px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #9900D1;
+  font-size: 16px;
+  font-weight: 700;
+  color: #b2abd4f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Login_Button:hover{
+  width: 135px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #b900d1;
+  font-size: 16px;
+  font-weight: 700;
+  color: #b2abd4f5;
+
+}
+@media screen and (max-width:800px) {
+  .Login_BackGround{
+    height: 158vh;
+  }
+  .Login_Com{
+
+    flex-direction: column;
+  }
+  .Login_Com1{
+    width: 100%;
+    height: 79vh;
+  }
+  .Login_Form_Inside_User_Pic{
+    margin-right: -6vh;
+  }
+}
+@media screen and (max-width:500px) {
+  .SignUp_Form_Inside{
+    width: 100%;
+  }
+  .Login_Form_Inside{
+    width: 100%;
+  }
+}
+.Profile_Otline{
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+.Profile_Msg_Outline{
+  width: 20%;
+  height: 100%;
+  background-color: #272162;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* .loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} */
+.Profile_Msg_Outline_Mobile{
+  width: 0vw;
+  height: 100vh;
+  background-color: #272162;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  z-index: 8;
+  margin-top: -100vh;
+  transition-property: width;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  transition-delay: 3s;
+  /* width: 70vw; */
+}
+.Profile_Msg_Inside{
+  width: 90%;
+  height: 95%;
+}
+.Profile_Msg_Head{
+  width: 100%;
+  height: 10vh;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border-bottom: solid 2px #454280;
+}
+.Profile_Msg_Peoples_Con{
+  width: 100%;
+  height: 83vh;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+}
+.Profile_Msg_Peoples{
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  min-height: 8vh;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: solid 2px #454280;
+  font-weight: bold;
+}
+.Profile_Msg_Peoples1{
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  min-height: 8vh;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: solid 2px #454280;
+}
+.Profile_Msg_Peoples:hover{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #272162d2;
+  border-bottom: solid 2px #425680;
+
+}
+.Profile_Msg_Pic{
+  width: 35px;
+  height: 60%;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+.Profile_Msg_Name {
+  width: 75%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.Your_Profile_Container{
+  width: 80%;
+  height: 100vh;
+  background-color: #F6F5FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Your_Profile_Container_Inside{
+  width: 98%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.Your_Profile_Name{
+  width: 95%;
+  height: 12%;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5%;
+  cursor: pointer;
+}
+.Your_Profile_Search{
+  width: 95%;
+  min-height: 12%;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  z-index: 4;
+  
+}
+.Search_User{
+  width: 60%;
+  height: 40%;
+  font-size: 16px;
+  padding-left: 2%;
+  border-radius: 25px;
+  background-color:rgba(192, 192, 192, 0.836);
+  max-height: 38px;
+  z-index: 6;
+  position: absolute;
+}
+.Search_User_Container{
+  width: 78%;
+  min-height: 280px;
+  overflow: auto;
+  height: 280px;
+  margin-top: 50vh;
+  background-color: rgba(192, 192, 192, 0.836);
+}
+.User_Com{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  border-bottom:solid gray 2px;
+  cursor: pointer;
+}
+.User_Com:hover{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  border-bottom:solid gray 2px;
+  cursor: pointer;
+}
+.Your_Com{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10ch;
+  /* display: none; */
+}
+.Your_Com_Con{
+  width: 40%;
+  height: 80%;
+  background-color: #FFFFFF;
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 25px;
+}
+.Your_Com_Con_Pic{
+  width: 25%;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: -10vh;
+  position: relative;
+  overflow: hidden;
+
+}
+.Your_Pic{
+  width: 100%;
+  height: 100%;
+}
+.Your_Name{
+  width: 100%;
+  height: 10%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.Your_Email{
+  width: 100%;
+  height: 10%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: silver;
+}
+.Your_Description{
+  margin-top: 50px;
+  width: 100%;
+  height: 25%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: silver;
+  margin-bottom: 20px;
+}
+.New{
+  width: 60%;
+  height: 100%;
+  background-color: #F8C01A;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  /* transition-property: height; */
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.New:hover{
+  width: 65%;
+  height: 120%;
+  background-color: #d7f81a;
+
+}
+.MenuBar_Button{
+  width: 70px;
+  height: 50px;
+  margin-right: 50vw;
+  cursor: pointer;
+  display: none;
+}
+.MenuBar_Button1{
+  width: 70px;
+  height: 80%;
+  margin-left: 10vw;
+  cursor: pointer;
+}
+.MenuBar_Pic{
+  width: 100%;
+  height: 100%;
+}
+
+.ChatBox_Outline{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  z-index: 1;
+  margin-top: -100vh
+
+}
+.ChatBox_Down{
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+  z-index: 27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: -100vh; */
+  /* position: relative; */
+
+}
+.For_Height{
+  width: 100%;
+  height: 100vh;
+  
+}
+.ChatBox{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  /* border-radius: 100px; */
+}
+.Chat_Box_Header{
+  width: 100%;
+  height: 15%;
+  border-bottom: solid gray 3px;
+  font-size: 24px;
+  background-color: #EBEFF2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+.Chat_Box_Main{
+  width: 90%;
+  height: 65vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* display: flex;
+  justify-content: flex-end;
+  flex-direction: column; */
+  overflow: auto;
+  max-height: 63%;
+  /* min-height: 63%; */
+}
+.Chat_Box_Footer{
+  width: 100%;
+  height: 20%;
+  border-top: solid gray 3px;
+  overflow-y: hidden;
+}
+.Chat_Box_Msg_Box{
+  width: 100%;
+  height: auto;
+  /* min-height: 20px; */
+  margin-bottom: 4px;
+}
+.Chat_Box_Msg{
+  width: auto;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: inline-block;
+  align-items: center;
+  background-color: #00AFFE;
+  min-height: 40px;
+  max-width: 80%;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+.Chat_Box_Msg_Box2{
+  width: 100%;
+  height: auto;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+.Chat_Box_Msg_Box22{
+  width: 100%;
+  height: auto;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+.Simple{
+  color: white;
+}
+.Chat_Box_Msg2{
+  width: auto;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: inline-block;
+  align-items: center;
+  background-color: #EBEFF2;
+  margin-bottom: 10px;
+
+  min-height: 40px;
+  max-width: 80%;
+  border-radius: 10px;
+  color: black;
+  overflow: hidden;
+}
+.Small{
+  font-size: 7px;
+}
+.Chat_Box_Msg22{
+  width: auto;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  background-color: #00AFFE;
+  min-height: 40px;
+  max-width: 80%;
+  border-radius: 10px;
+  color: black;
+}
+.Msg_Bar{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.Type_Msg{
+  width: 85%;
+  height: 90%;
+  background-color: #EBEFF2;
+  padding-left: 20px;
+  font-size: 18px;
+  overflow: auto;
+  border: none;
+  border-radius: 25px;
+}
+.typing-box {
+  width: 200px;
+  height: 30px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.typing-indicator {
+  display: flex;
+  align-items: center;
+}
+
+.typing-indicator span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 4px;
+  background-color: #000;
+  border-radius: 50%;
+  animation: typing-indicator-animation 1s infinite;
+}
+
+@keyframes typing-indicator-animation {
+  0% { opacity: 0.2; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+.Button_Bar{
+  width: 100%;
+  height: 50%;
+  /* background-color: #9900D1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Cencel_Chat{
+  width: 125px;
+  height: 30px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+.Send_Chat{
+  width: 125px;
+  height: 30px;
+  background-color: lawngreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width:800px) {
+  .MenuBar_Button{
+    display: flex;
+    margin-right: 70%;
+  }
+  .Profile_Msg_Outline{
+    display: none;
+  }
+  .Your_Profile_Container{
+    width: 100%;
+  }
+  .Your_Com_Con{
+    min-width: 310px;
+  }
+  .Your_Profile_Name{
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  .ChatBox{
+    width: 90%;
+  }
+  .Send_Chat{
+    width: 100px;
+  }
+  .Cencel_Chat{
+    width: 100px;
+  }
+}
