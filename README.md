@@ -1,4 +1,5 @@
 💬 Real-Time Chat Application (MERN Stack)
+
 📌 Overview
 
 A full-stack real-time chat application built using the MERN stack, enabling users to connect, communicate, and manage social interactions seamlessly. The system implements secure authentication, real-time messaging, and user relationship management with a scalable backend architecture.
